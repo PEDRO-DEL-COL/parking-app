@@ -1,0 +1,75 @@
+.dashboard-container {
+  background-color: #dedede;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 70%;
+  max-height: 100%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.dashboard-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.dashboard-stats {
+  font-size: 18px;
+  color: #000;
+  margin: 10px 0;
+}
+
+.dashboard-stats span {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.chart-container {
+  height: 35vh;
+  width: 70%;
+  margin: 30px;
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.add-car-button,
+.remove-car-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.add-car-button {
+  background-color: #28a745;
+}
+
+.add-car-button:hover {
+  background-color: #1d7933;
+}
+
+.add-car-button:active,
+.remove-car-button:active {
+  transform: translateY(3%);
+  transition: all 0.1s ease;
+}
+
+.remove-car-button {
+  background-color: #dc3545;
+}
+
+.remove-car-button:hover {
+  background-color: #c82333;
+}
